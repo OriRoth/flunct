@@ -1,0 +1,15 @@
+Group is
+
+../src/flunct.cm
+
+test.sml
+util/math_test.sml
+util/util_test.sml
+data_structures/set_test.sml
+data_structures/map_test.sml
+automata/fsm_test.sml
+fluent/binary_test.sml
+fluent/flunct_test.sml
+
+$/basis.cm
+$/smlnj-lib.cm

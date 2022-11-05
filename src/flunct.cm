@@ -1,0 +1,20 @@
+Group is
+
+util/util.sml
+util/math_util.sml
+data_structures/set.sml
+data_structures/map.sml
+automata/fsm.sml
+fluent/binary.sml
+fluent/fsm2binary.sml
+fluent/binary2shuffle.sml
+fluent/binary2sparse.sml
+fluent/shuffle2sml.sml
+fluent/binary2church.sml
+fluent/church2sml.sml
+fluent/fsm2tabulation.sml
+fluent/tabulation2sml.sml
+fluent/flunct.sml
+
+$/basis.cm
+$/smlnj-lib.cm
