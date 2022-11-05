@@ -1,5 +1,7 @@
 # Flunct&mdash;A Functional Fluent API Generator
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7294304.svg)](https://doi.org/10.5281/zenodo.7294304)
+
 Flunct embeds domain-specific languages (DSLs) in SML.
 Flunct compiles a given FSM <i>M</i> specifying the DSL syntax into
 a functional fluent API that validates <i>M</i> at compile time,
