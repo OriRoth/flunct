@@ -15,7 +15,12 @@ end;
 
 open Ring;
 val time = Time.toMilliseconds o Time.now;
-val print_time = print o (fn s => s ^ "\n") o Int.toString o (fn t => t div 5) o IntInf.toInt;
+fun print_time n t = let
+		val n_s =  Int.toString n
+		val t_s = (Int.toString o (fn t => t div 5) o IntInf.toInt) t
+	in
+		print ("(" ^ n_s ^ "," ^ t_s ^ ")\n")
+	end;
 val t1 = time ();
 val _ = fn () => ^^ $$;
 val _ = fn () => ^^ $$;
@@ -30,7 +35,7 @@ val _ = fn () => ^^ a a a a $$;
 val _ = fn () => ^^ a a a a $$;
 val _ = fn () => ^^ a a a a $$;
 val t4 = time ();
-val _ = print "Fig. B.5. Chain length vs. compilation time with 4-state Ring FSM and SML/NJ";
-val _ = print_time (t2 - t1);
-val _ = print_time (t4 - t3);
+val _ = print "Fig. B.5. Chain length vs. compilation time with 4-state Ring FSM and SML/NJ\n\n";
+val _ = print_time 0 (t2 - t1);
+val _ = print_time 4 (t4 - t3);
 val _ = OS.Process.exit OS.Process.success;
