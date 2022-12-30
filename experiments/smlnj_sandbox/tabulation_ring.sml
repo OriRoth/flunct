@@ -48,6 +48,7 @@ val _ = fn () => ^^ a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
 val _ = fn () => ^^ a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a $$;
 val _ = fn () => ^^ a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a $$;
 val t8 = time ();
+val _ = print "Fig. B.5. Chain length vs. compilation time with 4-state Ring FSM and SML/NJ";
 val _ = print_time (t2 - t1);
 val _ = print_time (t4 - t3);
 val _ = print_time (t6 - t5);

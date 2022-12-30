@@ -3,7 +3,7 @@
  *)
 CM.make "flunct_test.cm";
 
-Test.suits_run [
+val _ = Test.suits_run [
 	MathTest.math_test_suit,
 	UtilTest.util_test_suit,
 	SetTest.set_test_suit,
@@ -11,4 +11,5 @@ Test.suits_run [
 	FsmTest.fsm_test_suit,
 	BinaryTest.binary_test_suit,
 	FlunctTest.flunct_test_suit
-];
+]
+val _ = OS.Process.exit OS.Process.success
