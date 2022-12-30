@@ -102,13 +102,13 @@ CM.make "experiments.cm";
 (512, RingExperiment.run_time Flunct.Sparse 512 0);
 
 "Ring API compilation time Church";
-(2, RingExperiment.run_time Flunct.Church 2 0;
-(4, RingExperiment.run_time Flunct.Church 4 0;
-(8, RingExperiment.run_time Flunct.Church 8 0;
-(16, RingExperiment.run_time Flunct.Church 16 0;
-(32, RingExperiment.run_time Flunct.Church 32 0;
-(64, RingExperiment.run_time Flunct.Church 64 0;
-(128, RingExperiment.run_time Flunct.Church 128 0;
+(2, RingExperiment.run_time Flunct.Church 2 0);
+(4, RingExperiment.run_time Flunct.Church 4 0);
+(8, RingExperiment.run_time Flunct.Church 8 0);
+(16, RingExperiment.run_time Flunct.Church 16 0);
+(32, RingExperiment.run_time Flunct.Church 32 0);
+(64, RingExperiment.run_time Flunct.Church 64 0);
+(128, RingExperiment.run_time Flunct.Church 128 0);
 
 "Ring API compilation time Tabulation";
 (2, RingExperiment.run_time Flunct.Tabulation 2 0);
